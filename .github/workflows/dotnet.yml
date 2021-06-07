@@ -22,7 +22,7 @@ jobs:
     - name: Build
       run: dotnet build --no-restore -c Release
     - name: Test
-      run: dotnet test --no-build --verbosity normal
+      run: dotnet test
     - name: Publish Nuget Panosen.DBSchema.Mysql
       run: dotnet nuget push Panosen.DBSchema.Mysql/bin/Release/Panosen.DBSchema.Mysql.*.nupkg -s https://api.nuget.org/v3/index.json -k ${{secrets.PANOSEN_NUGET_API_KEY}} --skip-duplicate
     - name: Publish Nuget Panosen.DBSchema.Sqlite
