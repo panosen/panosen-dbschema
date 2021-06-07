@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Panosen.DBSchema.Mysql", "Panosen.DBSchema.Mysql\Panosen.DBSchema.Mysql.csproj", "{D2DBC30A-520D-4096-AA25-0294E33F9094}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Panosen.DBSchema.Sqlite", "Panosen.DBSchema.Sqlite\Panosen.DBSchema.Sqlite.csproj", "{F8D4A0CA-2721-456C-867A-BB41C84C4547}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Panosen.DBSchema.Mysql.TestProject", "Panosen.DBSchema.Mysql.TestProject\Panosen.DBSchema.Mysql.TestProject.csproj", "{6397D612-FDCA-464E-946C-585125042AF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Panosen.DBSchema.Sqlite.TestProject", "Panosen.DBSchema.Sqlite.TestProject\Panosen.DBSchema.Sqlite.TestProject.csproj", "{0DB6ABCB-0E9E-41A0-9D43-1BDEEB1021C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2DBC30A-520D-4096-AA25-0294E33F9094}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2DBC30A-520D-4096-AA25-0294E33F9094}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2DBC30A-520D-4096-AA25-0294E33F9094}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2DBC30A-520D-4096-AA25-0294E33F9094}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8D4A0CA-2721-456C-867A-BB41C84C4547}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8D4A0CA-2721-456C-867A-BB41C84C4547}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8D4A0CA-2721-456C-867A-BB41C84C4547}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8D4A0CA-2721-456C-867A-BB41C84C4547}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6397D612-FDCA-464E-946C-585125042AF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6397D612-FDCA-464E-946C-585125042AF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6397D612-FDCA-464E-946C-585125042AF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6397D612-FDCA-464E-946C-585125042AF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DB6ABCB-0E9E-41A0-9D43-1BDEEB1021C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DB6ABCB-0E9E-41A0-9D43-1BDEEB1021C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DB6ABCB-0E9E-41A0-9D43-1BDEEB1021C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DB6ABCB-0E9E-41A0-9D43-1BDEEB1021C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0FFC6FA8-B9B7-4E7F-A7D5-EB1ADDA98863}
+	EndGlobalSection
+EndGlobal

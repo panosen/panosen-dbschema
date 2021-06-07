@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net472;netstandard2.0</TargetFrameworks>
+    <AssemblyName>Panosen.DBSchema.Sqlite</AssemblyName>
+    <RootNamespace>Panosen.DBSchema.Sqlite</RootNamespace>
+    <Version>0.1.0</Version>
+    <Authors>harriszhang@live.cn</Authors>
+    <Company>harriszhang@live.cn</Company>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <DocumentationFile>bin\$(Configuration)\Panosen.DBSchema.Sqlite.xml</DocumentationFile>
+    <PackageIcon>panosen.png</PackageIcon>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\panosen.png" Pack="true" PackagePath="" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.90" />
+    <PackageReference Include="System.Data.SQLite.Core" Version="1.0.114.2" />
+  </ItemGroup>
+
+</Project>
