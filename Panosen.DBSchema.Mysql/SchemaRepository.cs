@@ -37,13 +37,13 @@ select
     *
 from information_schema.tables
 where
-    TABLE_SCHEMA = @DBName;";
+    TABLE_SCHEMA = @DBName and TABLE_TYPE = 'BASE TABLE';";
 
             return connection.Query<Table>(sql, new { DBName = dbName }).ToList();
         }
 
         /// <summary>
-        /// 获取数据库所有字段
+        /// 获取数据库所有字段(表+视图)
         /// </summary>
         /// <param name="dbName"></param>
         /// <returns></returns>
