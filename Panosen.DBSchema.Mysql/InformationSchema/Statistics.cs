@@ -62,7 +62,7 @@ namespace Panosen.DBSchema.Mysql.InformationSchema
         /// CARDINALITY is counted based on statistics stored as integers, so the value is not necessarily exact even for small tables.
         /// The higher the cardinality, the greater the chance that MySQL uses the index when doing joins.
         /// </summary>
-        public string CARDINALITY { get; set; }
+        public long CARDINALITY { get; set; }
 
         /// <summary>
         /// The index prefix. That is, the number of indexed characters if the column is only partly indexed, NULL if the entire column is indexed.
